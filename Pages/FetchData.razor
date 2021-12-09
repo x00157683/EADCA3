@@ -1,0 +1,203 @@
+﻿@page "/fetchdata"
+@using Newtonsoft.Json
+@using System.Net.Http.Json
+@using System.Net.Http
+@using System.Linq
+@using Data
+@using t3d = BlazorStrap
+@using Blazority
+@using Microsoft.Extensions.Logging;
+@inject ILogger<FetchData> logger;
+
+
+@inject HttpClient Http
+
+
+
+<PageTitle>Mars API Photos</PageTitle>
+
+
+<div class="">
+
+	<h1>Mars API Photos</h1>
+
+
+
+	<p>Enter a sol day (limited depending on rover)</p>
+
+	<div id ="solDay">
+	<EditForm Model="@q1" OnValidSubmit="@OnInitializedAsync">
+
+		<fieldset>
+
+			<legend>Search photo</legend>
+			<DataAnnotationsValidator />
+
+			<div class="row ">
+				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+					<div class="form-group">
+						<label for="name">Sol Day: </label>
+						<InputText id="name" @bind-Value="q1.solDay" class="col-md-6 form-control" />
+						<ValidationMessage For="@(() => q1.solDay)" />
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+					<div class="form-group">
+						<label for="roverType">Rover Type: </label>
+						<InputSelect id="roverType" @bind-Value="q1.RoverName" class="col-md-6 form-control">
+							<option value="@RoverNames.Curiosity">Curiosity</option>
+							<option value="@RoverNames.Opportunity">Opportunity</option>
+							<option value="@RoverNames.Perseverance">Perseverance</option>
+							<option value="@RoverNames.Spirit">Spirit</option>
+
+						</InputSelect>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+				</div>
+			</div>
+			<div class="py-2">
+				<button type="submit" class="btn btn-primary">Submit</button>
+				<button class="float-right" onclick="@nextDay">Next Day</button>
+				<button class="float-right" onclick="@t1.viewFavorites">View favorites</button>
+				<button class="float-right" onclick="@t1.sortFavs">Sort favs by date</button>
+
+			</div>
+
+		</fieldset>
+
+	</EditForm>
+	</div>
+	<br />
+	<br />
+
+	
+
+	<section class="">
+		<!-- Section: Images -->
+		<section class="">
+			<div class="row my-2">
+
+
+				@foreach (var item in p1)
+				{
+					
+					<div class="py-1 col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+						<div class="bg-image hover-overlay ripple shadow-1-strong rounded "
+						 data-ripple-color="light">
+							<a target="_blank" href="@item.img_src">
+								<img src="@item.img_src" alt="@item.rover.name" width="250" height="250">
+							</a>
+
+							<div class="">
+								Id: @item.id
+							</div>
+							<div class="">
+								Earth Date: @item.earth_date
+							</div>
+							<button class="btn btn-primary float-left md-6" @onclick="args =>AddtoFav(item)">Add to favorites</button>
+							
+						
+						</div>
+					</div>
+				}
+
+			</div>
+		</section>
+
+	</section>
+	<!-- Modal gallery -->
+</div>
+
+@code {
+
+
+
+	const int maxSolCurious = 3000;
+	const int maxSolOpp = 5110;
+	const int maxSolPers = 282;
+	const int maxSolSpirit = 2208;
+	const string APIKEY = "api_key=vT5CQ2aqemBmK4jfX3ceTtFpbmu8bM62ft2YwywO";
+
+
+	private List<Photo> p1 = new List<Photo>();
+	private MarsQuery q1 = new MarsQuery();
+	private TempUser t1 = new TempUser();
+
+
+	public enum ROVER{
+
+		Perseverance,
+		Opportunity,
+		Curiosity,
+		Spirit
+	}
+
+	// validation passed and form submitted
+
+	private void nextDay()
+	{
+
+		if(q1.solDay != null)
+		{
+			int day = Int32.Parse(q1.solDay);
+
+			day++;
+
+			q1.solDay = day.ToString();
+
+			OnInitializedAsync();
+		}
+
+		else
+		{
+			throw new InvalidOperationException("No current day!");
+		}
+
+
+
+	}
+
+
+	private void AddtoFav(Photo pIn)
+	{
+
+		t1.myFavs.Add(pIn);
+
+	}
+
+
+	protected override async Task OnInitializedAsync()
+	{
+		try
+		{
+			Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(await Http.GetStringAsync("https://api.nasa.gov/mars-photos/api/v1/rovers/" + q1.RoverName + "/photos?sol=" + q1.solDay + "&"+APIKEY));
+			p1 = myDeserializedClass.photos;
+			
+
+
+		}
+		catch (Exception ex)
+		{
+			logger.LogError($"Failed to initialize MyComponent. Error: {ex}");
+			Console.WriteLine($"Failed to initialize MyComponent. Error: {ex}");
+		}
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

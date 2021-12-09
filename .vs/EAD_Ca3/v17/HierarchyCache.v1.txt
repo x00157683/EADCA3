@@ -1,0 +1,230 @@
+﻿++Solution 'EAD_Ca3' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:EAD_Ca3.sln
+++EAD_Ca3
+i:{00000000-0000-0000-0000-000000000000}:EAD_Ca3
+++Connected Services 
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2088
+++No service dependencies discovered
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2089
+++Dependencies
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2087
+++Analyzers
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:analyzers
+++Frameworks
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:frameworks
+++Packages
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:packages
+++Blazored.SessionStorage (2.2.0)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2101
+++Blazority (0.9.6)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2123
+++BlazorStrap (1.5.1)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2103
+++Havit.Blazor.Components.Web.Bootstrap (1.6.6)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2188
+++Microsoft.AspNetCore.Components.WebAssembly (6.0.0)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2098
+++Microsoft.AspNetCore.Components.WebAssembly.DevServer (6.0.0)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2102
+++Microsoft.Extensions.Http (6.0.0)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2100
+++MudBlazor (6.0.2)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2158
+++Newtonsoft.Json (13.0.1)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2099
+++Radzen.Blazor (3.13.4)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2140
+++WM.MDBBlazor (0.0.15)
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:>2167
+++Properties
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\properties\
+++launchSettings.json
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\properties\launchsettings.json
+++wwwroot
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\
+++css
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\css\
+++bootstrap
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\bootstrap\
+++bootstrap.min.css
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\bootstrap\bootstrap.min.css
+++open-iconic
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\
+++font
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\readme.md
+++app.css
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\app.css
+++sample-data
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\sample-data\
+++weather.json
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\sample-data\weather.json
+++favicon.ico
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\favicon.ico
+++icon-192.png
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\icon-192.png
+++index.html
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\index.html
+++Data
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\
+++Camera.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\camera.cs
+++MarsQuery.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\marsquery.cs
+++Photo.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\photo.cs
+++Response.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\response.cs
+++Root.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\root.cs
+++Rover.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\rover.cs
+++TempUser.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\data\tempuser.cs
+++Pages
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\pages\
+++Counter.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\pages\counter.razor
+++Favorites.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\pages\favorites.razor
+++FetchData.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\pages\fetchdata.razor
+++Index.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\pages\index.razor
+++Shared
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\shared\
+++MainLayout.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\shared\mainlayout.razor
+++MainLayout.razor.css
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\shared\mainlayout.razor.css
+++NavMenu.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\shared\navmenu.razor
+++NewNav.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\shared\newnav.razor
+++SurveyPrompt.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\shared\surveyprompt.razor
+++_Imports.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\_imports.razor
+++App.razor
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\app.razor
+++Program.cs
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\program.cs
+++ILLink.CodeFixProvider
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\illink.codefixprovider.dll
+++ILLink.RoslynAnalyzer
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\illink.roslynanalyzer.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\.nuget\packages\microsoft.aspnetcore.components.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\microsoft.netcore.app
+++bootstrap.min.css.map
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\fonts\
+++NavMenu.razor.css
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\shared\navmenu.razor.css
+++open-iconic-bootstrap.min.css
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{dc539ae2-031b-46fa-8951-132d84c475a2}:c:\users\marcl\source\repos\ead_ca3\ead_ca3\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+++Script Documents
+++localhost꞉7080/_framework/blazor.webassembly.js
+++localhost꞉7080/_framework/aspnetcore-browser-refresh.js
+++localhost꞉7080/_content/Radzen.Blazor/Radzen.Blazor.js
+++localhost꞉7080/_content/Blazority/blazority.min.js
+++localhost꞉7080/_content/Blazority/lib/webcomponents/custom-elements/custom-elements.min.js
+++localhost꞉7080/_content/Blazority/lib/clr/icons/clr-icons.min.js
+++localhost꞉7080/_framework/dotnet.6.0.0.159sd9isy6.js
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Shared\SurveyPrompt.razor
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Shared\MainLayout.razor
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Shared\NavMenu.razor
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Pages\Counter.razor
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Pages\FetchData.razor
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Pages\Index.razor
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Data\Camera.cs
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Data\MarsQuery.cs
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Data\Photo.cs
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Data\Response.cs
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Data\Root.cs
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Data\Rover.cs
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Data\TempUser.cs
+++file://c:\Users\marcl\source\repos\EAD_Ca3\EAD_Ca3\Program.cs
+++mono-wasm.invalid/converter_ii_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_ii_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_GetCSOwnedObjectByJSHandle
+++mono-wasm.invalid/converter_mi
+++mono-wasm.invalid/variadic_converter_mi
+++mono-wasm.invalid/managed_BINDINGS_GetCSOwnedObjectJSHandle
+++mono-wasm.invalid/managed_BINDINGS_TryGetCSOwnedObjectJSHandle
+++mono-wasm.invalid/converter_iii_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_iii_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_CreateCSOwnedProxy
+++mono-wasm.invalid/converter_i_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_i_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_GetJSOwnedObjectByGCHandle
+++mono-wasm.invalid/converter_m
+++mono-wasm.invalid/variadic_converter_m
+++mono-wasm.invalid/managed_BINDINGS_GetJSOwnedObjectGCHandle
+++mono-wasm.invalid/converter_i
+++mono-wasm.invalid/variadic_converter_i
+++mono-wasm.invalid/managed_BINDINGS_ReleaseJSOwnedObjectByGCHandle
+++mono-wasm.invalid/converter_
+++mono-wasm.invalid/managed_BINDINGS_CreateTaskSource
+++mono-wasm.invalid/converter_io
+++mono-wasm.invalid/variadic_converter_
+++mono-wasm.invalid/variadic_converter_io
+++mono-wasm.invalid/managed_BINDINGS_SetTaskSourceResult
+++mono-wasm.invalid/converter_is
+++mono-wasm.invalid/managed_BINDINGS_SetTaskSourceFailure
+++mono-wasm.invalid/variadic_converter_is
+++mono-wasm.invalid/managed_BINDINGS_GetTaskSourceTask
+++mono-wasm.invalid/converter_mo
+++mono-wasm.invalid/variadic_converter_mo
+++mono-wasm.invalid/managed_BINDINGS_SetupJSContinuation
+++mono-wasm.invalid/managed_BINDINGS_ObjectToString
+++mono-wasm.invalid/managed_BINDINGS_GetDateValue
+++mono-wasm.invalid/converter_d_result_unmarshaled
+++mono-wasm.invalid/variadic_converter_d_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_CreateDateTime
+++mono-wasm.invalid/converter_s_result_unmarshaled
+++mono-wasm.invalid/managed_BINDINGS_CreateUri
+++mono-wasm.invalid/variadic_converter_s_result_unmarshaled
+++mono-wasm.invalid/converter_im
+++mono-wasm.invalid/managed_BINDINGS_IsSimpleArray
+++mono-wasm.invalid/variadic_converter_im
+++mono-wasm.invalid/converter_ssss
+++mono-wasm.invalid/variadic_converter_ssss
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_InvokeDotNet
+++mono-wasm.invalid/converter_s
+++mono-wasm.invalid/variadic_converter_s
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_EndInvokeJS
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_NotifyByteArrayAvailable
+++mono-wasm.invalid/managed__Microsoft_AspNetCore_Components_WebAssembly__Microsoft_AspNetCore_Components_WebAssembly_Services_DefaultWebAssemblyJSRuntime_BeginInvokeDotNet
+++localhost꞉7080/_framework/blazor-hotreload.js
+++localhost꞉7080/_content/Havit.Blazor.Components.Web.Bootstrap/HxInputDateRange.js

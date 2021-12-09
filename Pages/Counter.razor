@@ -1,0 +1,47 @@
+﻿@using System;
+
+@page "/counter"
+
+<PageTitle>Counter</PageTitle>
+
+<h1>Convert Age to Mars Years</h1>
+
+
+
+
+<div>
+    <label for="eYears">Enter Age</label>
+    <input id="eYears" @bind="eYears" />
+    <p></p>
+</div>
+<div>
+    <button @onclick="Convert">Convert</button>
+</div>
+<div>
+    <p id="fahrenheit">
+        @{
+            if (convertClicked)
+            {
+                @:Years on Mars: @Math.Round(mYears)
+            }
+        }
+    </p>
+</div>
+
+@code {
+    private double eYears = 0;
+    private double mYears;
+    private bool convertClicked = false;
+    private const double YRATE = 1.8809;
+
+    // convert
+    public void Convert()
+    {
+        mYears = (eYears*YRATE);
+        
+
+        
+        convertClicked = true;
+    }
+}
+

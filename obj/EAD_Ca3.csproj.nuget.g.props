@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\marcl\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\marcl\.nuget\packages\" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)wm.mdbblazor\0.0.15\buildTransitive\WM.MDBBlazor.props" Condition="Exists('$(NuGetPackageRoot)wm.mdbblazor\0.0.15\buildTransitive\WM.MDBBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)radzen.blazor\3.13.4\buildTransitive\Radzen.Blazor.props" Condition="Exists('$(NuGetPackageRoot)radzen.blazor\3.13.4\buildTransitive\Radzen.Blazor.props')" />
+    <Import Project="$(NuGetPackageRoot)mudblazor\6.0.2\buildTransitive\MudBlazor.props" Condition="Exists('$(NuGetPackageRoot)mudblazor\6.0.2\buildTransitive\MudBlazor.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.0\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props" Condition="Exists('$(NuGetPackageRoot)microsoft.aspnetcore.components.webassembly\6.0.0\build\net6.0\Microsoft.AspNetCore.Components.WebAssembly.props')" />
+    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web\1.2.0\buildTransitive\Havit.Blazor.Components.Web.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web\1.2.0\buildTransitive\Havit.Blazor.Components.Web.props')" />
+    <Import Project="$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\1.6.6\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)havit.blazor.components.web.bootstrap\1.6.6\buildTransitive\Havit.Blazor.Components.Web.Bootstrap.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorstrap\1.5.1\buildTransitive\BlazorStrap.props" Condition="Exists('$(NuGetPackageRoot)blazorstrap\1.5.1\buildTransitive\BlazorStrap.props')" />
+    <Import Project="$(NuGetPackageRoot)blazority\0.9.6\buildTransitive\Blazority.props" Condition="Exists('$(NuGetPackageRoot)blazority\0.9.6\buildTransitive\Blazority.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer Condition=" '$(PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer)' == '' ">C:\Users\marcl\.nuget\packages\microsoft.aspnetcore.components.webassembly.devserver\6.0.0</PkgMicrosoft_AspNetCore_Components_WebAssembly_DevServer>
+  </PropertyGroup>
+</Project>
